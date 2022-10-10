@@ -1,0 +1,135 @@
+*{
+    background-color: #eae0d5;
+    font-family: 'Lato';
+    font-size: 20px;
+
+}
+.title {
+    color: #A5700A;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.title, .content {
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.month {
+    font-style: italic;
+    color: gray;
+}
+
+#jobdesk{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.op {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-size: 32px;
+    font-style: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h5 {
+    font-style: bold;
+    margin-top: 0px;
+}
+
+
+#head {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0px;
+}
+
+#greet {
+    justify-content: flex-start;    
+}
+
+nav {
+    text-align: right;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 300;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: 10px 25px;
+    font-weight: 300px;
+}
+
+nav a:hover {
+    font-weight: 700; 
+}
+
+#job{
+    margin-bottom: 30px;
+}
+#button {
+    color: gray;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    border-style: none;
+    background: #FFFFFF;
+    text-decoration: none;
+    box-shadow: 1px 5px 15px rgba(82, 39, 0, 0.15);
+}
+
+#button:hover {
+   background-color: #A5700A;
+   color: white;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+    
+}
+
+.card-text{
+    font-size: 18px;
+    color: gray;
+}
+
+.col {
+    width:300px;
+    padding: 20px;
+}
+
+.card-title, h5 {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+ul.content, #BLOG {
+    margin-bottom: 200px;
+}
+
+.blg {
+    margin-top: 0px;
+}
+
+hr#line{
+    border: solid 0.5px ;
+    border-color: rgb(184, 184, 184);
+    width: 80%;
+}
+
+#content1, #content2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
